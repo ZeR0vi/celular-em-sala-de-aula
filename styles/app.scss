@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: #19181F;
+    font-family: Popins;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    background-color: #0076CE;
+    height: 70px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 15px;
+   
+}
+
+.bottom {
+    background-color: #0076CE;
+    height: 100px;
+}
+
+.bottomlogo{
+    color: white;
+    padding-top: 50px;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.data{
+    padding-left: 50px;
+}
+
+.palavraschave{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px;
+}
+
+.manchete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #0076CE;
+}
+
+.grafico{
+    height: 700px;
+    padding-left: 30px;
+}
+
+.cll {
+    height: 300px;
+    padding-left: 300px;
+}
+
+.geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.subtitulo {
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+
+.creditos {
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+
+.generic{
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+
+.final {
+    padding: 30px;
+}
+
+@media (max-width: 999px) {
+
+
+    .grafico{
+        display: none;
+        
+    }
+    
+    .cll {
+        height: 200px;
+        padding: 30px;
+    }
+
+    .manchete {
+        display: block;
+        padding-left: 40px;
+    }
+
+    .subtitulo {
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        
+       
+    }
+    
+    h3 {
+        padding-left: 40px;
+        padding-bottom: 10px;
+       
+        
+    }
+    
+    .creditos {
+        padding-left: 40px;
+        padding-bottom: 10px;
+    }
+    
+    .generic{
+        padding-left: 40px;
+        padding-bottom: 10px;
+    }
+    
+    .final {
+        padding: 40px;
+    }
+    
+
+
+}
